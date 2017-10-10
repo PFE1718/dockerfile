@@ -4,7 +4,7 @@
 
 ### :sparkles: Getting started
 
-Start with editing the `Dockerfile`, replacing the original repository link with the one of the fork you would like to use at [line 31](https://github.com/PFE1718/dockerfile/master/Dockerfile#L31).
+Start with editing the `Dockerfile`, replacing the original repository link with the one of the fork you would like to use at [line 31](https://github.com/PFE1718/dockerfile/blob/master/Dockerfile#L31).
 
 Move to the root of the project folder and run the following command to build the new Docker image :
 

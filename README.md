@@ -9,7 +9,7 @@ Start with editing the `Dockerfile`, replacing the original repository link with
 Move to the root of the project folder and run the following command to build the new Docker image :
 
 ```bash
-docker build -t mycroft:0.1 .
+docker build -t mycroft-core:0.1 .
 ```
 
 Then create a new container with your newly created image and start mycroft :

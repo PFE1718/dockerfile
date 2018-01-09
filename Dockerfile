@@ -28,8 +28,9 @@ RUN apt-get install -y -q git\
     automake \
     libjpeg-dev \
     libfann-dev
-RUN git clone https://github.com/MycroftAI/mycroft-core.git
+RUN git clone https://github.com/PFE1718/mycroft-core.git
 WORKDIR /mycroft-core
+RUN git checkout master
 USER docker
 RUN echo 'docker' | sudo -S su
 RUN sudo ./dev_setup.sh --allow-root

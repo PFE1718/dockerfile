@@ -1,0 +1,6 @@
+version: '3'
+services:
+  mycroft:
+    build: .
+    volumes:
+      - ./skills/:/opt/mycroft/skills/

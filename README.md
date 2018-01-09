@@ -2,7 +2,7 @@
 
 ## DOCKERFILE
 
-### :zap: Understand
+### :zap: Introduction
 
 During the development period, you would like to be able to link you local skills to mycroft. To do so, you only need to create a folder at the root of the project called `skills`, and to add all the required skills to it. This folder is actually linked to `/opt/mycroft/skills` and will be filled with all the available skills on mycroft's startup. However your skills will not be erased and available when you will start the service.
 
